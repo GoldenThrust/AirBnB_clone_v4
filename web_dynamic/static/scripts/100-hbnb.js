@@ -3,9 +3,9 @@ $(document).ready(function (e) {
     let cities = {};
     let states = {};
 
-    // let host = '0.0.0.0';
-    // Note: if you are testing on browser uncomment localhost and comment '0.0.0.0'
-    let host = 'localhost';
+    // const host = '0.0.0.0';
+    // Note: if you are reviewing on browser uncomment localhost and comment '0.0.0.0'
+    const host = 'localhost';
 
     $('.amenities input[type="checkbox"]').on('change', function (e) {
         const id = $(this).attr('data-id');
