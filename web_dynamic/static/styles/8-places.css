@@ -6,11 +6,11 @@
     margin-top: 1%;
     margin-bottom: 8%;
 }
-@media only screen and (max-width: 920px)
-{
+
+@media only screen and (max-width: 920px) {
     .places {
-	display: flex;
-	flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -32,11 +32,13 @@
     border: 1px solid #FF5A5F;
     border-radius: 4px;
 }
+
 .places h2 {
     font-size: 30px;
     text-align: center;
     margin-top: 0;
 }
+
 .title_box {
     display: flex;
     justify-content: space-between;
@@ -49,6 +51,7 @@
     max-width: 75%;
     word-wrap: break-word;
 }
+
 .price_by_night {
     display: flex;
     height: 60px;
@@ -97,5 +100,36 @@
 }
 
 .user {
-  margin-bottom: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.places .reviews h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    padding: 5% 0 5% 0;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .reviews {
+    margin-bottom: 5%;
+}
+
+.places .reviews>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+.places .reviews ul li h3 {
+    margin-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.places .reviews ul li p {
+    padding-bottom: 5%;
+    margin-top: 0px;
 }
