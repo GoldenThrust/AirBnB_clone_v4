@@ -1,4 +1,5 @@
 AirBNB Clone
 Python - FLask - MySQL - Bash - HTML - CSS
-airbnbclone.mp4
+airbnb.png
+airbnb.mp4
 null
